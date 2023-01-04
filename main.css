@@ -1,0 +1,13 @@
+
+/* global styles */
+body{
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    opacity: 0.9;
+}
+
+#info{
+    background-image: url(./Images/img-mission-background.jpg);
+}

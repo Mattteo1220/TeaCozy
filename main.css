@@ -8,6 +8,69 @@ body{
     opacity: 0.9;
 }
 
+/*Nav styles */
+
+nav{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow:hidden;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title{
+    display:inline-block;
+}
+
+#title img{
+    margin-left: 10px;
+    height: 50px;
+}
+
+#navigator{
+    text-decoration: underline;
+    display: flex;
+    list-style: none;
+}
+
+#navigator li{
+    margin: 10px;
+}
+
+#navigator li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: seashell;
+}
+
+#navigator p{
+    margin: 10px;
+}
+
+/* Main styles */
+
 #info{
     background-image: url(./Images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+}
+
+#mission-statement{
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+main{
+    margin-top: 70px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
